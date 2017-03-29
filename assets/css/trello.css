@@ -2,6 +2,10 @@ body{
   color:white;
   background-color: 	DarkTurquoise;
 }
+h1{
+  color:Yellow;
+  font-family:cursive;
+}
 section{
   color:black;
 }

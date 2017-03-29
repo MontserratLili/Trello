@@ -6,11 +6,16 @@
     <link rel="stylesheet" type="text/css" href="assets\css\trello.css" media="screen"/>
   </head>
   <body>
+    <center>
     <h1>Trello</h1>
     <h3>Agregar lista</h3>
+    <section id="tarjeta"></section>
     <input id="agregarTarjeta" valor="" type="text"/>
+    <input id="masTarjetas" valor="" type="text"/>
     <button id="crearTarjeta" onclick="guardarTitulo(); crearPendiente(); guardarPendiente();">Crear Tarjeta</button>
+    <button id="otroBoton" onclick="imprimirTarjeta()">Guardar</button>
     <tr><td><section id="nuevaTarjeta"></section></td></tr>
     <script src="assets\js\trello.js"></script>
+  </center>
   </body>
 </html>
