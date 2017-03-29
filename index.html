@@ -8,9 +8,9 @@
   <body>
     <h1>Trello</h1>
     <h3>Agregar lista</h3>
-    <input id="agregarTarjeta" valor="agregar"/>
-    <button id="crearLista" onclick="crearTarjeta();">Crear lista</button>
-    <section id="nuevaTarjeta"></section>
+    <input id="agregarTarjeta" valor="" type="text"/>
+    <button id="crearTarjeta" onclick="guardarTitulo(); crearPendiente(); guardarPendiente();">Crear Tarjeta</button>
+    <tr><td><section id="nuevaTarjeta"></section></td></tr>
     <script src="assets\js\trello.js"></script>
   </body>
 </html>
